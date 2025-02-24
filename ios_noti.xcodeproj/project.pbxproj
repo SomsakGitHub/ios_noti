@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		216BE8D29DC9D17B77EC0E4C /* Pods_ios_notiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D09962B745F87E5F1815FA8 /* Pods_ios_notiTests.framework */; };
+		3ADF1AEE99F1A4AE969F95AE /* Pods_ios_noti_ios_notiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1771A06B8479387F446EFB3F /* Pods_ios_noti_ios_notiUITests.framework */; };
+		C422C70EDAD5CFE68D84E64A /* Pods_ios_noti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374E8910581A04DCDA095128 /* Pods_ios_noti.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8D27941C2D68703700ABA2CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1771A06B8479387F446EFB3F /* Pods_ios_noti_ios_notiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_noti_ios_notiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24BB5C401F258E97E28C83AD /* Pods-ios_noti-ios_notiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_noti-ios_notiUITests.release.xcconfig"; path = "Target Support Files/Pods-ios_noti-ios_notiUITests/Pods-ios_noti-ios_notiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		31900776C17F7643CE330D31 /* Pods-ios_noti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_noti.debug.xcconfig"; path = "Target Support Files/Pods-ios_noti/Pods-ios_noti.debug.xcconfig"; sourceTree = "<group>"; };
+		374E8910581A04DCDA095128 /* Pods_ios_noti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_noti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5831DDAC943B9A995013179D /* Pods-ios_notiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_notiTests.release.xcconfig"; path = "Target Support Files/Pods-ios_notiTests/Pods-ios_notiTests.release.xcconfig"; sourceTree = "<group>"; };
+		5D09962B745F87E5F1815FA8 /* Pods_ios_notiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_notiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE9A331F658718319EDB01F /* Pods-ios_noti-ios_notiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_noti-ios_notiUITests.debug.xcconfig"; path = "Target Support Files/Pods-ios_noti-ios_notiUITests/Pods-ios_noti-ios_notiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8D2794022D68703500ABA2CA /* ios_noti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_noti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D27941B2D68703700ABA2CA /* ios_notiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_notiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D2794252D68703700ABA2CA /* ios_notiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_notiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD90673989C7178FDF11AEA4 /* Pods-ios_notiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_notiTests.debug.xcconfig"; path = "Target Support Files/Pods-ios_notiTests/Pods-ios_notiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF032F997915B7DAA9AB432E /* Pods-ios_noti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_noti.release.xcconfig"; path = "Target Support Files/Pods-ios_noti/Pods-ios_noti.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C422C70EDAD5CFE68D84E64A /* Pods_ios_noti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				216BE8D29DC9D17B77EC0E4C /* Pods_ios_notiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +96,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ADF1AEE99F1A4AE969F95AE /* Pods_ios_noti_ios_notiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07270353A40D4398CF6C501A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31900776C17F7643CE330D31 /* Pods-ios_noti.debug.xcconfig */,
+				CF032F997915B7DAA9AB432E /* Pods-ios_noti.release.xcconfig */,
+				6DE9A331F658718319EDB01F /* Pods-ios_noti-ios_notiUITests.debug.xcconfig */,
+				24BB5C401F258E97E28C83AD /* Pods-ios_noti-ios_notiUITests.release.xcconfig */,
+				CD90673989C7178FDF11AEA4 /* Pods-ios_notiTests.debug.xcconfig */,
+				5831DDAC943B9A995013179D /* Pods-ios_notiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8D2793F92D68703500ABA2CA = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +123,8 @@
 				8D27941E2D68703700ABA2CA /* ios_notiTests */,
 				8D2794282D68703700ABA2CA /* ios_notiUITests */,
 				8D2794032D68703500ABA2CA /* Products */,
+				07270353A40D4398CF6C501A /* Pods */,
+				D20D93E615275D71DCC8AACF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +138,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D20D93E615275D71DCC8AACF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				374E8910581A04DCDA095128 /* Pods_ios_noti.framework */,
+				1771A06B8479387F446EFB3F /* Pods_ios_noti_ios_notiUITests.framework */,
+				5D09962B745F87E5F1815FA8 /* Pods_ios_notiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D27942E2D68703700ABA2CA /* Build configuration list for PBXNativeTarget "ios_noti" */;
 			buildPhases = (
+				77C8F35E3EBBCDE2DD69846C /* [CP] Check Pods Manifest.lock */,
 				8D2793FE2D68703500ABA2CA /* Sources */,
 				8D2793FF2D68703500ABA2CA /* Frameworks */,
 				8D2794002D68703500ABA2CA /* Resources */,
+				F020D363D2024499FECE907B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +169,6 @@
 				8D2794042D68703500ABA2CA /* ios_noti */,
 			);
 			name = ios_noti;
-			packageProductDependencies = (
-			);
 			productName = ios_noti;
 			productReference = 8D2794022D68703500ABA2CA /* ios_noti.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D2794332D68703700ABA2CA /* Build configuration list for PBXNativeTarget "ios_notiTests" */;
 			buildPhases = (
+				C7F772216B304A5D83264447 /* [CP] Check Pods Manifest.lock */,
 				8D2794172D68703700ABA2CA /* Sources */,
 				8D2794182D68703700ABA2CA /* Frameworks */,
 				8D2794192D68703700ABA2CA /* Resources */,
@@ -147,8 +191,6 @@
 				8D27941E2D68703700ABA2CA /* ios_notiTests */,
 			);
 			name = ios_notiTests;
-			packageProductDependencies = (
-			);
 			productName = ios_notiTests;
 			productReference = 8D27941B2D68703700ABA2CA /* ios_notiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D2794362D68703700ABA2CA /* Build configuration list for PBXNativeTarget "ios_notiUITests" */;
 			buildPhases = (
+				F970743E221AB360545C1C6B /* [CP] Check Pods Manifest.lock */,
 				8D2794212D68703700ABA2CA /* Sources */,
 				8D2794222D68703700ABA2CA /* Frameworks */,
 				8D2794232D68703700ABA2CA /* Resources */,
+				1C2A4F6F931B97890E444F6C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,8 +214,6 @@
 				8D2794282D68703700ABA2CA /* ios_notiUITests */,
 			);
 			name = ios_notiUITests;
-			packageProductDependencies = (
-			);
 			productName = ios_notiUITests;
 			productReference = 8D2794252D68703700ABA2CA /* ios_notiUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -244,6 +286,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C2A4F6F931B97890E444F6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_noti-ios_notiUITests/Pods-ios_noti-ios_notiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_noti-ios_notiUITests/Pods-ios_noti-ios_notiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios_noti-ios_notiUITests/Pods-ios_noti-ios_notiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77C8F35E3EBBCDE2DD69846C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios_noti-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7F772216B304A5D83264447 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios_notiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F020D363D2024499FECE907B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_noti/Pods-ios_noti-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_noti/Pods-ios_noti-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios_noti/Pods-ios_noti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F970743E221AB360545C1C6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios_noti-ios_notiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D2793FE2D68703500ABA2CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,12 +429,18 @@
 /* Begin XCBuildConfiguration section */
 		8D27942F2D68703700ABA2CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31900776C17F7643CE330D31 /* Pods-ios_noti.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = ios_noti/ios_noti.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9U8PYJFN94;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = SH3MAU7MRB;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ios_noti/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -302,8 +453,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "somsak.ios-noti";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tisconet.mewang.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "meWang Alpha";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,12 +465,18 @@
 		};
 		8D2794302D68703700ABA2CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF032F997915B7DAA9AB432E /* Pods-ios_noti.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = ios_noti/ios_noti.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9U8PYJFN94;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = SH3MAU7MRB;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ios_noti/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -330,8 +489,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "somsak.ios-noti";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tisconet.mewang.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "meWang Alpha";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,6 +620,7 @@
 		};
 		8D2794342D68703700ABA2CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD90673989C7178FDF11AEA4 /* Pods-ios_notiTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -478,6 +640,7 @@
 		};
 		8D2794352D68703700ABA2CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5831DDAC943B9A995013179D /* Pods-ios_notiTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -497,6 +660,7 @@
 		};
 		8D2794372D68703700ABA2CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE9A331F658718319EDB01F /* Pods-ios_noti-ios_notiUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -514,6 +678,7 @@
 		};
 		8D2794382D68703700ABA2CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24BB5C401F258E97E28C83AD /* Pods-ios_noti-ios_notiUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

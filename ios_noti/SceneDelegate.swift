@@ -1,11 +1,6 @@
-//
-//  SceneDelegate.swift
-//  ios_noti
-//
-//  Created by somsak02061 on 21/2/2568 BE.
-//
-
 import UIKit
+import FirebaseCore
+import FirebaseMessaging
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -17,6 +12,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        
+        FirebaseApp.configure()
+        
+        // Apple remote notification
+        Messaging.messaging().delegate = self
+        UNUserNotificationCenter.current().delegate = self
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -51,5 +52,52 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
 
+}
+
+extension SceneDelegate: MessagingDelegate, UNUserNotificationCenterDelegate {
+    func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String?) {
+        print("fcmToken: \(fcmToken)")
+//        AppUserDefault.shared.fcmToken = fcmToken
+    }
+    
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        print("deviceToken: \(deviceToken)")
+        Messaging.messaging().apnsToken = deviceToken
+//        AppUserDefault.shared.fcmToken = Messaging.messaging().fcmToken
+    }
+    
+    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+        print("Failed to register: \(error)")
+    }
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        defer {
+            completionHandler()
+        }
+        // when notification was tapped
+        
+        print("userNotificationCenter didReceive=>")
+        
+//        AppRedirect.shared.destination = .notification
+//        LocalNotification.post(for: .notificationDidReceive)
+//        LocalNotification.post(for: .shouldReloadNotificationFeed)
+        
+        UIApplication.shared.applicationIconBadgeNumber = 1
+    }
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        
+        // when notification was show in foreground
+        
+        print("userNotificationCenter willPresent=>")
+        
+        // force to show red dot
+//        AppUserDefault.shared.unreadNotification = 1
+        
+        UIApplication.shared.applicationIconBadgeNumber = 1
+//        LocalNotification.post(for: .notificationDidReceive)
+//        LocalNotification.post(for: .shouldReloadNotificationFeed)
+        completionHandler([.badge, .sound, .banner])
+    }
 }
 

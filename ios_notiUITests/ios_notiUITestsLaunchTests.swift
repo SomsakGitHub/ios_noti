@@ -1,10 +1,3 @@
-//
-//  ios_notiUITestsLaunchTests.swift
-//  ios_notiUITests
-//
-//  Created by somsak02061 on 21/2/2568 BE.
-//
-
 import XCTest
 
 final class ios_notiUITestsLaunchTests: XCTestCase {
