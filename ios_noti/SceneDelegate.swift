@@ -82,6 +82,13 @@ extension SceneDelegate: MessagingDelegate, UNUserNotificationCenterDelegate {
 //        LocalNotification.post(for: .notificationDidReceive)
 //        LocalNotification.post(for: .shouldReloadNotificationFeed)
         
+        print("original userInfo was : \(response.notification.request.content.userInfo)")
+        
+        if let dict = response.notification.request.content.userInfo as? [String:Any] {
+            let groupId = dict["group_id"] as? String
+            print("groupId=>", groupId ?? "")
+        }
+        
         UIApplication.shared.applicationIconBadgeNumber = 1
     }
     
